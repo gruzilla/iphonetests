@@ -11,13 +11,16 @@
 
 @implementation FirstViewController
 
-/*
+@synthesize textInput;
+@synthesize label;
+@synthesize name;
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 }
-*/
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
@@ -46,7 +49,32 @@
 
 - (void)dealloc
 {
+    [textInput release];
+    [label release];
+    [name release];
     [super dealloc];
 }
+
+- (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
+    if(theTextField == textInput) {
+        [textInput resignFirstResponder];
+    }
+    return YES;
+}
+
+-(IBAction)buttonPressed:(id)sender {
+    //NSLog(@"Button Pressed!");
+    self.name = textInput.text;
+    
+    NSString *nameString = self.name;
+    if ([nameString length] == 0) {
+        nameString = @"ma";
+    }
+    
+    NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@!", nameString];
+    label.text = greeting;
+    [greeting release];
+}
+
 
 @end

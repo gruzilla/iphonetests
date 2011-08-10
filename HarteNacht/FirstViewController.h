@@ -9,8 +9,16 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FirstViewController : UIViewController {
-
+@interface FirstViewController : UIViewController<UITextFieldDelegate> {
+    UITextField *textInput;
+    UILabel *label;
+    NSString *name;
 }
+
+@property (nonatomic, retain) IBOutlet UITextField *textInput;
+@property (nonatomic, retain) IBOutlet UILabel *label;
+@property (nonatomic, copy) NSString *name;
+
+- (IBAction)buttonPressed:(id)sender;
 
 @end
