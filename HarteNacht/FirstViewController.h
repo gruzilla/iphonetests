@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MobileCoreServices/UTCoreTypes.h>
 
-@interface FirstViewController : UIViewController<UITextFieldDelegate> {
+@interface FirstViewController : UIViewController<UITextFieldDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate> {
     UITextField *textInput;
     UILabel *label;
     NSString *name;
@@ -20,5 +20,7 @@
 @property (nonatomic, copy) NSString *name;
 
 - (IBAction)buttonPressed:(id)sender;
-
+- (BOOL) startCameraControllerFromViewController: (UIViewController*) controller
+								   usingDelegate: (id <UINavigationControllerDelegate,
+                                                   UIImagePickerControllerDelegate>) delegate;
 @end

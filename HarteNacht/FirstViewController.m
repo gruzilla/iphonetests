@@ -88,9 +88,8 @@
 
 - (BOOL) startCameraControllerFromViewController: (UIViewController*) controller
 
-								   usingDelegate: (id <UIImagePickerControllerDelegate,
-												   
-												   UINavigationControllerDelegate>) delegate {
+								   usingDelegate: (id <UINavigationControllerDelegate,
+                                                   UIImagePickerControllerDelegate>) delegate {
 	
     if (([UIImagePickerController isSourceTypeAvailable:
 		  
