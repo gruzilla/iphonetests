@@ -1,7 +1,7 @@
 THarteNacht
 v7
 r0
-t334739133.338546
+t335193701.330720
 cCheck dependencies
 cProcessInfoPlistFile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/Info.plist HarteNacht/HarteNacht-Info.plist
 cProcessPCH /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-erzbeduihkemwdgvtuytxevvikvq/HarteNacht-Prefix.pch.gch HarteNacht/HarteNacht-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
@@ -37,6 +37,16 @@ c000000004D54CFB80000000000001466
 t1297403832
 s5222
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/UTCoreTypes.h
+c000000004D54D0BA000000000000520D
+t1297404090
+s21005
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004D54D0BC000000000005C090
+t1297404092
+s376976
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000004D5615B40000000000000AA1
 t1297487284
@@ -53,15 +63,16 @@ t1297054251
 s6937
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.h
-c000000004E430C6C0000000000000217
-t1313016940
-s535
+c000000004E4A6CF70000000000000241
+t1313500407
+s577
 i<UIKit/UIKit.h>
+i<MobileCoreServices/UTCoreTypes.h>
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m
-c000000004E430CFA000000000000065F
-t1313017082
-s1631
+c000000004E4A6F4A00000000000012CA
+t1313501002
+s4810
 i"FirstViewController.h"
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNacht-Prefix.pch
@@ -123,23 +134,23 @@ s366
 i<UIKit/UIKit.h>
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app
-t1313046333
+t1313500901
 s204
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app.dSYM
-t1313017102
+t1313500901
 s102
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht
-t1313017102
-s24624
+t1313500901
+s26128
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/Info.plist
-t1313017101
-s786
+t1313498945
+s789
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/PkgInfo
-t1313017101
+t1313498945
 s8
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/en.lproj/FirstView.nib
@@ -159,8 +170,8 @@ t1313046333
 s1378
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/Objects-normal/i386/FirstViewController.o
-t1313017102
-s44228
+t1313500901
+s51252
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/Objects-normal/i386/HarteNacht.LinkFileList
 c000000004E430D0D000000000000025C
@@ -184,17 +195,17 @@ t1313017102
 s12283312
 
 NHarteNacht/HarteNacht-Info.plist
-c000000004E430C6C00000000000004A0
-t1313016940
-s1184
+c000000004E441C5900000000000004A3
+t1313086553
+s1187
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies334739132#334739132#0(0"0(0#1#0"8606128896#0"0#
+lSLF07#2@18"Check dependencies335193701#335193701#0(0"0(0#1#0"8627826784#0"0#
 
 CCompileC build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/Objects-normal/i386/FirstViewController.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s334709902.123744
-e334709902.215716
+s335193701.143858
+e335193701.286897
 r1
 xCompileC
 xbuild/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/Objects-normal/i386/FirstViewController.o
@@ -203,7 +214,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@90"Compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m334709902#334709902#0(0"0(0#0#82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m8602329344#2131"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/DerivedSources/i386 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/DerivedSources -include /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-erzbeduihkemwdgvtuytxevvikvq/HarteNacht-Prefix.pch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/Objects-normal/i386/FirstViewController.o0#
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m: In function '-[FirstViewController buttonPressed:]':
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: 'FirstViewController' may not respond to '-startCameraControllerFromViewController:usingDelegate:'
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: (Messages without a matching method signature
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: will be assumed to return 'id' and accept
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: '...' as arguments.)
+lSLF07#2@90"Compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m335193701#335193701#0(729"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m: In function '-[FirstViewController buttonPressed:]':/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: 'FirstViewController' may not respond to '-startCameraControllerFromViewController:usingDelegate:'/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: (Messages without a matching method signature/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: will be assumed to return 'id' and accept/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: '...' as arguments.)2(22@98"'FirstViewController' may not respond to '-startCameraControllerFromViewController:usingDelegate:'335193701#137#195#0(6@82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m335193699#69#0#69#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)335193701#332#142#0(6@82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m335193699#69#0#69#0#0"0(0#0#82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m8626906112#2131"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/DerivedSources/i386 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/DerivedSources -include /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-erzbeduihkemwdgvtuytxevvikvq/HarteNacht-Prefix.pch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/Objects-normal/i386/FirstViewController.o0#
 
 CCompileC build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/Objects-normal/i386/HarteNachtAppDelegate.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s334709902.071980
@@ -281,32 +297,32 @@ xHarteNacht/en.lproj/InfoPlist.strings
 lSLF07#2@42"Copy HarteNacht/en.lproj/InfoPlist.strings334709902#334709902#0(0"0(0#0#87"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/InfoPlist.strings8608041248#519"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary HarteNacht/en.lproj/InfoPlist.strings --outdir /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/en.lproj0#
 
 CGenerateDSYMFile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app.dSYM /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht
-s334709902.273856
-e334709902.289123
+s335193701.311407
+e335193701.328256
 r1
 xGenerateDSYMFile
 x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app.dSYM
 x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/HarteNacht.app.dSYM build/Debug-iphonesimulator/HarteNacht.app/HarteNacht334709902#334709902#0(0"0(0#0#103"/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht8608369792#425"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app.dSYM0#
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/HarteNacht.app.dSYM build/Debug-iphonesimulator/HarteNacht.app/HarteNacht335193701#335193701#0(0"0(0#0#103"/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht8602663136#425"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app.dSYM0#
 
 CLd /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht normal i386
-s334709902.247962
-e334709902.273768
+s335193701.286968
+e335193701.311326
 r1
 xLd
 x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht
 xnormal
 xi386
-lSLF07#2@108"Link /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht334709902#334709902#0(0"0(0#0#0"8606151232#984"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator -filelist /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/Objects-normal/i386/HarteNacht.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -prebind -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht0#
+lSLF07#2@108"Link /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht335193701#335193701#0(0"0(0#0#0"8627558752#1014"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator -filelist /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/Objects-normal/i386/HarteNacht.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -framework MobileCoreServices -prebind -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/HarteNacht0#
 
 CProcessInfoPlistFile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/Info.plist HarteNacht/HarteNacht-Info.plist
-s334709901.410786
-e334709901.427151
+s335191745.406380
+e335191745.553776
 r1
 xProcessInfoPlistFile
 x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/Info.plist
 xHarteNacht/HarteNacht-Info.plist
-lSLF07#2@40"Process HarteNacht/HarteNacht-Info.plist334709901#334709901#0(0"0(0#0#82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNacht-Info.plist29273822786027600#532"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HarteNacht/HarteNacht-Info.plist -genpkginfo /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/Info.plist0#
+lSLF07#2@40"Process HarteNacht/HarteNacht-Info.plist335191745#335191745#0(0"0(0#0#82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNacht-Info.plist29273822786027600#532"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HarteNacht/HarteNacht-Info.plist -genpkginfo /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app/Info.plist0#
 
 CProcessPCH /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-erzbeduihkemwdgvtuytxevvikvq/HarteNacht-Prefix.pch.gch HarteNacht/HarteNacht-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
 s334709901.427394
@@ -322,10 +338,10 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@43"Precompile HarteNacht/HarteNacht-Prefix.pch334709901#334709902#0(0"0(0#0#82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNacht-Prefix.pch8608569920#1979"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/DerivedSources/i386 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphonesimulator/HarteNacht.build/DerivedSources -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNacht-Prefix.pch -o /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-erzbeduihkemwdgvtuytxevvikvq/HarteNacht-Prefix.pch.gch0#
 
 CTouch /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app
-s334739133.336298
-e334739133.338521
+s335193701.328647
+e335193701.330697
 r1
 xTouch
 x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app
-lSLF07#2@98"Touch /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app334739133#334739133#0(0"0(0#0#0"8607071168#303"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app0#
+lSLF07#2@98"Touch /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app335193701#335193701#0(0"0(0#0#0"8628200320#303"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphonesimulator/HarteNacht.app0#
 

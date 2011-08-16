@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0953952A13FAA44D004687AD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0953952913FAA44D004687AD /* MobileCoreServices.framework */; };
 		0CEE282F13F0A12B008D221A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEE282E13F0A12B008D221A /* UIKit.framework */; };
 		0CEE283113F0A12B008D221A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEE283013F0A12B008D221A /* Foundation.framework */; };
 		0CEE283313F0A12B008D221A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEE283213F0A12B008D221A /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0953952913FAA44D004687AD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		0CEE282A13F0A12B008D221A /* HarteNacht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarteNacht.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEE282E13F0A12B008D221A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0CEE283013F0A12B008D221A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +50,7 @@
 				0CEE282F13F0A12B008D221A /* UIKit.framework in Frameworks */,
 				0CEE283113F0A12B008D221A /* Foundation.framework in Frameworks */,
 				0CEE283313F0A12B008D221A /* CoreGraphics.framework in Frameworks */,
+				0953952A13FAA44D004687AD /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +63,7 @@
 				0CEE283413F0A12B008D221A /* HarteNacht */,
 				0CEE282D13F0A12B008D221A /* Frameworks */,
 				0CEE282B13F0A12B008D221A /* Products */,
+				0953952913FAA44D004687AD /* MobileCoreServices.framework */,
 			);
 			sourceTree = "<group>";
 		};

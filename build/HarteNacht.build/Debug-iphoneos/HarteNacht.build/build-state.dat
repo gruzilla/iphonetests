@@ -1,6 +1,32 @@
 THarteNacht
 v7
-r1
+r0
+t335199705.930542
+cCheck dependencies
+cCpResource build/Debug-iphoneos/HarteNacht.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/Info.plist HarteNacht/HarteNacht-Info.plist
+cProcessPCH /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-amemlikqxtclcgbxxlcnpkjvxjtm/HarteNacht-Prefix.pch.gch HarteNacht/HarteNacht-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-bqezakcpzgjyojcyekprlbihczph/HarteNacht-Prefix.pch.gch HarteNacht/HarteNacht-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/main.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNachtAppDelegate.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/FirstViewController.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/SecondViewController.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/SecondViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNacht normal armv6
+cCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/main.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNachtAppDelegate.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/FirstViewController.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/SecondViewController.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/SecondViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNacht normal armv7
+cCreateUniversalBinary /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/HarteNacht normal "armv6 armv7"
+cGenerateDSYMFile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app.dSYM /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/HarteNacht
+cCopyStringsFile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/en.lproj/InfoPlist.strings HarteNacht/en.lproj/InfoPlist.strings
+cCompileXIB /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/MainWindow.xib
+cCompileXIB /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/FirstView.xib
+cCompileXIB /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/SecondView.xib
+cProcessProductPackaging "/Users/ja/Library/MobileDevice/Provisioning Profiles/583C0CC4-EA0D-4461-9421-1449E93A7E09.mobileprovision" /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/embedded.mobileprovision
+cTouch /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht.xcent
+cCodeSign /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
 c000000004D7401890000000000000110
@@ -32,6 +58,16 @@ c000000004D54D1DD0000000000001466
 t1297404381
 s5222
 
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/UTCoreTypes.h
+c000000004D54D32C000000000000520D
+t1297404716
+s21005
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004D54D32D0000000000094C50
+t1297404717
+s609360
+
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000004D5A28AB0000000000000AA1
 t1297754283
@@ -48,15 +84,16 @@ t1297052866
 s6937
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.h
-c000000004E430C6C0000000000000217
-t1313016940
-s535
+c000000004E4A6CF70000000000000241
+t1313500407
+s577
 i<UIKit/UIKit.h>
+i<MobileCoreServices/UTCoreTypes.h>
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m
-c000000004E430CFA000000000000065F
-t1313017082
-s1631
+c000000004E4A8FEB0000000000001246
+t1313509355
+s4678
 i"FirstViewController.h"
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNacht-Prefix.pch
@@ -92,9 +129,9 @@ s987
 i"SecondViewController.h"
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/FirstView.xib
-c000000004E430C6C0000000000003977
-t1313016940
-s14711
+c000000004E430E240000000000005F79
+t1313017380
+s24441
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/InfoPlist.strings
 c000000004E430C6C000000000000002D
@@ -102,14 +139,14 @@ t1313016940
 s45
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/MainWindow.xib
-c000000004E430C6C000000000000647E
-t1313016940
-s25726
+c000000004E437F3B00000000000088B3
+t1313046331
+s34995
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/SecondView.xib
-c000000004E430C6C00000000000042AB
-t1313016940
-s17067
+c000000004E437F1D0000000000004947
+t1313046301
+s18759
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m
 c000000004E430C6C000000000000016E
@@ -118,102 +155,102 @@ s366
 i<UIKit/UIKit.h>
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app
-t2
-s0
+t1313506874
+s340
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app.dSYM
-t2
-s0
+t1313506862
+s102
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/HarteNacht
-t2
-s0
+t1313506862
+s68848
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/Info.plist
-t2
-s0
+t1313501018
+s1065
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/PkgInfo
-t2
-s0
+t1313501018
+s8
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/ResourceRules.plist
-t2
-s0
+t1313501018
+s485
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/embedded.mobileprovision
-t2
-s0
+t1313501022
+s7456
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/en.lproj/FirstView.nib
-t2
-s0
+t1313501022
+s2179
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/en.lproj/InfoPlist.strings
-t2
-s0
+t1313501021
+s42
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/en.lproj/MainWindow.nib
-t2
-s0
+t1313501021
+s2338
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/en.lproj/SecondView.nib
-t2
-s0
+t1313501022
+s1378
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht.xcent
-t2
-s0
+t1313501022
+s619
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/FirstViewController.o
-t2
-s0
+t1313506859
+s49708
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNacht
-t2
-s0
+t1313506862
+s25848
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNacht.LinkFileList
-c00000000000000000000000000000000
-t2
-s0
+c000000004E4A6F5A0000000000000244
+t1313501018
+s580
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNachtAppDelegate.o
-t2
-s0
+t1313501020
+s51260
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/SecondViewController.o
-t2
-s0
+t1313501020
+s35148
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/main.o
-t2
-s0
+t1313501020
+s3044
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/FirstViewController.o
-t2
-s0
+t1313506860
+s49600
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNacht
-t2
-s0
+t1313506862
+s25848
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNacht.LinkFileList
-c00000000000000000000000000000000
-t2
-s0
+c000000004E4A6F5A0000000000000244
+t1313501018
+s580
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNachtAppDelegate.o
-t2
-s0
+t1313501020
+s51144
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/SecondViewController.o
-t2
-s0
+t1313501020
+s35100
 
 N/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/main.o
-t2
-s0
+t1313501020
+s3056
 
 N/Users/ja/Library/MobileDevice/Provisioning Profiles/583C0CC4-EA0D-4461-9421-1449E93A7E09.mobileprovision
 c000000004E4300D10000000000001D20
@@ -221,87 +258,287 @@ t1313013969
 s7456
 
 N/var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-amemlikqxtclcgbxxlcnpkjvxjtm/HarteNacht-Prefix.pch.gch
-t1313014102
+t1313501019
 s7935900
 
 N/var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-bqezakcpzgjyojcyekprlbihczph/HarteNacht-Prefix.pch.gch
-t1313014102
+t1313501020
 s8431516
 
 NHarteNacht/HarteNacht-Info.plist
-c000000004E430C6C00000000000004A0
-t1313016940
-s1184
+c000000004E441C5900000000000004A3
+t1313086553
+s1187
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335199705#335199705#0(0"0(0#1#0"8618357440#0"0#
 
 CCodeSign /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app
-r0
+s335199673.731415
+e335199674.695400
+r1
+xCodeSign
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app: replacing existing signature
+lSLF07#2@44"CodeSign build/Debug-iphoneos/HarteNacht.app335199673#335199674#0(116"/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app: replacing existing signature0(0#0#85"/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app8614821056#706"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Karl Lahmer (4EAVB6M94L)" --resource-rules=/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/ResourceRules.plist --entitlements /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht.xcent /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app0#
 
 CCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/FirstViewController.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
-r0
+s335199659.433916
+e335199659.625536
+r1
+xCompileC
+xbuild/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/FirstViewController.o
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m: In function '-[FirstViewController buttonPressed:]':
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: 'FirstViewController' may not respond to '-startCameraControllerFromViewController:usingDelegate:'
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: (Messages without a matching method signature
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: will be assumed to return 'id' and accept
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: '...' as arguments.)
+lSLF07#2@90"Compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m335199659#335199659#0(729"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m: In function '-[FirstViewController buttonPressed:]':/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: 'FirstViewController' may not respond to '-startCameraControllerFromViewController:usingDelegate:'/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: (Messages without a matching method signature/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: will be assumed to return 'id' and accept/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: '...' as arguments.)2(22@98"'FirstViewController' may not respond to '-startCameraControllerFromViewController:usingDelegate:'335199659#137#195#0(6@82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m335199654#69#0#69#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)335199659#332#142#0(6@82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m335199654#69#0#69#0#0"0(0#0#82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m7308901739622117376#1941"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources/armv6 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources -include /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-amemlikqxtclcgbxxlcnpkjvxjtm/HarteNacht-Prefix.pch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/FirstViewController.o0#
 
 CCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNachtAppDelegate.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
-r0
+s335193820.333311
+e335193820.497387
+r1
+xCompileC
+xbuild/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNachtAppDelegate.o
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@92"Compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m335193820#335193820#0(0"0(0#0#84"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m8628997088#1945"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources/armv6 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources -include /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-amemlikqxtclcgbxxlcnpkjvxjtm/HarteNacht-Prefix.pch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNachtAppDelegate.o0#
 
 CCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/SecondViewController.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/SecondViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
-r0
+s335193820.497481
+e335193820.575754
+r1
+xCompileC
+xbuild/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/SecondViewController.o
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/SecondViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@91"Compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/SecondViewController.m335193820#335193820#0(0"0(0#0#83"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/SecondViewController.m8630176224#1943"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources/armv6 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources -include /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-amemlikqxtclcgbxxlcnpkjvxjtm/HarteNacht-Prefix.pch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/SecondViewController.m -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/SecondViewController.o0#
 
 CCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/main.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
-r0
+s335193820.331888
+e335193820.461311
+r1
+xCompileC
+xbuild/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/main.o
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m335193820#335193820#0(0"0(0#0#67"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m8630258304#1911"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources/armv6 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources -include /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-amemlikqxtclcgbxxlcnpkjvxjtm/HarteNacht-Prefix.pch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/main.o0#
 
 CCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/FirstViewController.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-r0
+s335199659.521105
+e335199660.479697
+r1
+xCompileC
+xbuild/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/FirstViewController.o
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m: In function '-[FirstViewController buttonPressed:]':
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: 'FirstViewController' may not respond to '-startCameraControllerFromViewController:usingDelegate:'
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: (Messages without a matching method signature
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: will be assumed to return 'id' and accept
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: '...' as arguments.)
+lSLF07#2@90"Compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m335199659#335199660#0(729"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m: In function '-[FirstViewController buttonPressed:]':/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: 'FirstViewController' may not respond to '-startCameraControllerFromViewController:usingDelegate:'/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: (Messages without a matching method signature/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: will be assumed to return 'id' and accept/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: '...' as arguments.)2(22@98"'FirstViewController' may not respond to '-startCameraControllerFromViewController:usingDelegate:'335199660#137#195#0(6@82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m335199654#69#0#69#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)335199660#332#142#0(6@82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m335199654#69#0#69#0#0"0(0#0#82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m8612457152#1941"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources/armv7 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources -include /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-bqezakcpzgjyojcyekprlbihczph/HarteNacht-Prefix.pch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/FirstViewController.o0#
 
 CCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNachtAppDelegate.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-r0
+s335193820.575838
+e335193820.704222
+r1
+xCompileC
+xbuild/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNachtAppDelegate.o
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@92"Compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m335193820#335193820#0(0"0(0#0#84"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m8628629728#1945"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources/armv7 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources -include /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-bqezakcpzgjyojcyekprlbihczph/HarteNacht-Prefix.pch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNachtAppDelegate.m -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNachtAppDelegate.o0#
 
 CCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/SecondViewController.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/SecondViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-r0
+s335193820.703230
+e335193820.771322
+r1
+xCompileC
+xbuild/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/SecondViewController.o
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/SecondViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@91"Compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/SecondViewController.m335193820#335193820#0(0"0(0#0#83"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/SecondViewController.m8629887360#1943"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources/armv7 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources -include /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-bqezakcpzgjyojcyekprlbihczph/HarteNacht-Prefix.pch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/SecondViewController.m -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/SecondViewController.o0#
 
 CCompileC build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/main.o /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-r0
+s335193820.568034
+e335193820.631712
+r1
+xCompileC
+xbuild/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/main.o
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m335193820#335193820#0(0"0(0#0#67"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m8629649184#1911"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources/armv7 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources -include /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-bqezakcpzgjyojcyekprlbihczph/HarteNacht-Prefix.pch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/main.m -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/main.o0#
 
 CCompileXIB /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/FirstView.xib
-r0
+s335193821.503594
+e335193822.378063
+r1
+xCompileXIB
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/FirstView.xib
+lSLF07#2@44"CompileXIB HarteNacht/en.lproj/FirstView.xib335193821#335193822#0(0"0(0#0#83"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/FirstView.xib8630150400#605"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/en.lproj/FirstView.nib /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/FirstView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
 
 CCompileXIB /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/MainWindow.xib
-r0
+s335193820.772255
+e335193822.046883
+r1
+xCompileXIB
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/MainWindow.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/MainWindow.xib:139: warning: 'Navigation Controller (What the Hack)' has its 'NIB Name' property set to 'FirstView.nib', but this view controller is not intended to have its view set in this manner.
+o/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/MainWindow.xib:145: warning: 'Selected Navigation Controller (Top Videos)' has its 'NIB Name' property set to 'SecondView.nib', but this view controller is not intended to have its view set in this manner.
+lSLF07#2@45"CompileXIB HarteNacht/en.lproj/MainWindow.xib335193820#335193822#0(586"/* com.apple.ibtool.document.warnings *//Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/MainWindow.xib:139: warning: 'Navigation Controller (What the Hack)' has its 'NIB Name' property set to 'FirstView.nib', but this view controller is not intended to have its view set in this manner./Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/MainWindow.xib:145: warning: 'Selected Navigation Controller (Top Videos)' has its 'NIB Name' property set to 'SecondView.nib', but this view controller is not intended to have its view set in this manner.2(22@169"'Navigation Controller (What the Hack)' has its 'NIB Name' property set to 'FirstView.nib', but this view controller is not intended to have its view set in this manner.335193822#18446744073709551615#0#0(6@84"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/MainWindow.xib334739131#139#0#139#0#0"0(22@176"'Selected Navigation Controller (Top Videos)' has its 'NIB Name' property set to 'SecondView.nib', but this view controller is not intended to have its view set in this manner.335193822#18446744073709551615#0#0(6@84"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/MainWindow.xib334739131#145#0#145#0#0"0(0#0#84"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/MainWindow.xib8630229120#607"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/en.lproj/MainWindow.nib /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
 
 CCompileXIB /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/SecondView.xib
-r0
+s335193822.047071
+e335193822.486448
+r1
+xCompileXIB
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/SecondView.xib
+lSLF07#2@45"CompileXIB HarteNacht/en.lproj/SecondView.xib335193822#335193822#0(0"0(0#0#84"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/SecondView.xib8629023648#607"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/en.lproj/SecondView.nib /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/SecondView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
 
 CCopyStringsFile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/en.lproj/InfoPlist.strings HarteNacht/en.lproj/InfoPlist.strings
-r0
+s335193820.771402
+e335193821.503510
+r1
+xCopyStringsFile
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/en.lproj/InfoPlist.strings
+xHarteNacht/en.lproj/InfoPlist.strings
+lSLF07#2@42"Copy HarteNacht/en.lproj/InfoPlist.strings335193820#335193821#0(0"0(0#0#87"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/en.lproj/InfoPlist.strings8630347872#505"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary HarteNacht/en.lproj/InfoPlist.strings --outdir /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/en.lproj0#
 
 CCpResource build/Debug-iphoneos/HarteNacht.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
-r0
+s335193818.503191
+e335193818.573491
+r1
+xCpResource
+xbuild/Debug-iphoneos/HarteNacht.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist335193818#335193819#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8630321536#519"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app0#
 
 CCreateUniversalBinary /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/HarteNacht normal "armv6 armv7"
-r0
+s335199662.433948
+e335199662.491974
+r1
+xCreateUniversalBinary
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/HarteNacht
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/HarteNacht.app/HarteNacht normal "armv6 armv7"335199662#335199662#0(0"0(0#0#61"/Users/ja/Documents/projekte/2011/iOS/iphonetests/armv6 armv78611755872#586"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNacht /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNacht -output /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/HarteNacht0#
 
 CGenerateDSYMFile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app.dSYM /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/HarteNacht
-r0
+s335199662.492056
+e335199662.733336
+r1
+xGenerateDSYMFile
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app.dSYM
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/HarteNacht
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/HarteNacht.app.dSYM build/Debug-iphoneos/HarteNacht.app/HarteNacht335199662#335199662#0(0"0(0#0#96"/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/HarteNacht8611454752#404"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/HarteNacht -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app.dSYM0#
 
 CLd /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNacht normal armv6
-r0
+s335199659.625621
+e335199662.433872
+r1
+xLd
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNacht
+xnormal
+xarmv6
+lSLF07#2@141"Link /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNacht335199659#335199662#0(0"0(0#0#0"27303274611474528#976"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -filelist /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNacht.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework UIKit -framework Foundation -framework CoreGraphics -framework MobileCoreServices -prebind -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv6/HarteNacht0#
 
 CLd /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNacht normal armv7
-r0
+s335199660.479928
+e335199662.432362
+r1
+xLd
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNacht
+xnormal
+xarmv7
+lSLF07#2@141"Link /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNacht335199660#335199662#0(0"0(0#0#0"8602234848#976"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -filelist /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNacht.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework UIKit -framework Foundation -framework CoreGraphics -framework MobileCoreServices -prebind -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/Objects-normal/armv7/HarteNacht0#
 
 CProcessInfoPlistFile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/Info.plist HarteNacht/HarteNacht-Info.plist
-r0
+s335193818.505883
+e335193818.571654
+r1
+xProcessInfoPlistFile
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/Info.plist
+xHarteNacht/HarteNacht-Info.plist
+lSLF07#2@40"Process HarteNacht/HarteNacht-Info.plist335193818#335193819#0(0"0(0#0#82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNacht-Info.plist8630338080#629"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HarteNacht/HarteNacht-Info.plist -genpkginfo /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/ResourceRules.plist -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/Info.plist0#
 
 CProcessPCH /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-amemlikqxtclcgbxxlcnpkjvxjtm/HarteNacht-Prefix.pch.gch HarteNacht/HarteNacht-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
-r0
+s335193818.573578
+e335193820.331749
+r1
+xProcessPCH
+x/var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-amemlikqxtclcgbxxlcnpkjvxjtm/HarteNacht-Prefix.pch.gch
+xHarteNacht/HarteNacht-Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@43"Precompile HarteNacht/HarteNacht-Prefix.pch335193818#335193820#0(0"0(0#0#82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNacht-Prefix.pch8388063575555798016#1795"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources/armv6 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNacht-Prefix.pch -o /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-amemlikqxtclcgbxxlcnpkjvxjtm/HarteNacht-Prefix.pch.gch0#
 
 CProcessPCH /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-bqezakcpzgjyojcyekprlbihczph/HarteNacht-Prefix.pch.gch HarteNacht/HarteNacht-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
-r0
+s335193818.583376
+e335193820.095865
+r1
+xProcessPCH
+x/var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-bqezakcpzgjyojcyekprlbihczph/HarteNacht-Prefix.pch.gch
+xHarteNacht/HarteNacht-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@43"Precompile HarteNacht/HarteNacht-Prefix.pch335193818#335193820#0(0"0(0#0#82"/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNacht-Prefix.pch8629436064#1795"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-generated-files.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-own-target-headers.hmap -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-all-target-headers.hmap -iquote /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht-project-headers.hmap -F/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/include -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources/armv7 -I/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/DerivedSources -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/HarteNacht-Prefix.pch -o /var/folders/zK/zKLclXjdEDW-da91b-LbDE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HarteNacht-Prefix-bqezakcpzgjyojcyekprlbihczph/HarteNacht-Prefix.pch.gch0#
 
 CProcessProductPackaging "/Users/ja/Library/MobileDevice/Provisioning Profiles/583C0CC4-EA0D-4461-9421-1449E93A7E09.mobileprovision" /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/embedded.mobileprovision
-r0
+s335193822.486555
+e335193822.505237
+r1
+xProcessProductPackaging
+x/Users/ja/Library/MobileDevice/Provisioning Profiles/583C0CC4-EA0D-4461-9421-1449E93A7E09.mobileprovision
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/embedded.mobileprovision
+lSLF07#2@192"ProcessProductPackaging "/Users/ja/Library/MobileDevice/Provisioning Profiles/583C0CC4-EA0D-4461-9421-1449E93A7E09.mobileprovision" build/Debug-iphoneos/HarteNacht.app/embedded.mobileprovision335193822#335193822#0(0"0(0#0#110"/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/embedded.mobileprovision8627402432#445"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/ja/Library/MobileDevice/Provisioning Profiles/583C0CC4-EA0D-4461-9421-1449E93A7E09.mobileprovision" -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app/embedded.mobileprovision0#
 
 CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht.xcent
-r0
+s335193822.505357
+e335193822.517779
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht.xcent
+lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht.xcent335193822#335193822#0(0"0(0#0#121"/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht.xcent8619381824#463"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/HarteNacht.build/Debug-iphoneos/HarteNacht.build/HarteNacht.xcent0#
 
 CTouch /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app
-r0
+s335199662.733813
+e335199662.772199
+r1
+xTouch
+x/Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app
+lSLF07#2@91"Touch /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app335199662#335199662#0(0"0(0#0#0"8602043104#289"    cd /Users/ja/Documents/projekte/2011/iOS/iphonetests    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ja/Documents/projekte/2011/iOS/iphonetests/build/Debug-iphoneos/HarteNacht.app0#
 

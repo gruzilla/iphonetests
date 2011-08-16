@@ -1,0 +1,5 @@
+/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m: In function '-[FirstViewController buttonPressed:]':
+/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: 'FirstViewController' may not respond to '-startCameraControllerFromViewController:usingDelegate:'
+/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: (Messages without a matching method signature
+/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: will be assumed to return 'id' and accept
+/Users/ja/Documents/projekte/2011/iOS/iphonetests/HarteNacht/FirstViewController.m:69: warning: '...' as arguments.)
